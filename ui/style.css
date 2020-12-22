@@ -1,0 +1,147 @@
+body{
+  /* background-color: #fff0b3; */
+}
+
+.container{
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff5e6;
+}
+
+#clock{
+  text-align: center;
+  margin-top: 30px;
+}
+
+#clockTime{
+  font-size: 30pt;
+}
+
+#setTime{
+  font-size: 14pt;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100px;
+  background: #ffb84d;
+}
+
+#stop:hover{
+  background: #ff8080;
+  color: white;
+}
+
+#stop{
+  font-size: 14pt;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100px;
+  background: #ffb3b3;
+  margin-right: 20px;
+  margin-left: 25%;
+}
+
+
+#snooze{
+  font-size: 14pt;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100px;
+  background: #ffb3b3;
+  margin-left: 20px;
+  margin-right: 25%;
+}
+
+#snooze:hover{
+  background: #ff8080;
+  color: white;
+}
+
+#setTime:hover{
+  background: #ffa31a;
+  color: white;
+}
+
+#dinopic{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin-right: 10px;
+}
+#advance{
+  font-size: 14pt;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 110px;
+  margin-left: 30px;
+  background: #ffeb99;
+}
+#advance:hover{
+  background: #ffd633;
+  /* color: white; */
+}
+
+#back{
+  font-size: 14pt;
+  border-radius: 5px;
+  width: 100px;
+  background: #ffeb99;
+  margin-top: 70px;
+}
+#back:hover{
+  background: #ffd633;
+  /* color: white; */
+}
+
+#feature_div{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.boxes{
+  font-size: 18pt;
+}
+
+#getTemp{
+  font-size: 14pt;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 20px;
+  /*background: #ffeb99;*/
+  margin-top: 35px;
+  background: #ddccff;
+}
+
+#getTemp:hover{
+  background: #eee6ff;
+}
+
+#getWeatherAPI{
+  font-size: 14pt;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 20px;
+  background: #ccb3ff;
+  margin-top: 35px;
+}
+
+#getWeatherAPI:hover{
+  background: #ddccff;
+}
+
+#makeCoffee{
+  font-size: 14pt;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 20px;
+  background: #eee6ff;
+}
+
+#makeCoffee:hover{
+  background: #ffffff;
+}

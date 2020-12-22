@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src = "AlarmApp.js"></script>
+    <script src="Alarm.js"></script>
+    <!-- <script src="Coffee.js"></script> -->
+
+    <script src="./resources/particle/particle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <br><br>
+    <span id='message'></span>
+    <br><br>
+
+    <br>
+<!-- Audio for audio play back  -->
+    <audio id = "audio" src="" hidden></audio>
+    <!-- main section: home page -->
+    <div class="container" id ="container1">
+      <button type="button" id="stop">Stop</button>
+      <button type="button" id="snooze">Snooze</button>
+
+<!--Alarm input and setting-->
+      <form id="clock">
+        <input type="time" id="clockTime"><br>
+        <button type="button" id="setTime">Set</button>
+      </form>
+      <button type="button" id="advance" onClick="showAdvanced()">Advance-Feature</button>
+      <img src="dino.png" id="dinopic">
+    </div>
+
+  <!-- Second Page -->
+    <div class="container" id="container2" hidden>
+      <div id ="feature_div">
+        <!-- Buttons for features -->
+        <button id = "makeCoffee" type="button" class="btn btn-primary" name="button">Make coffee</button><br>
+        <button id = "getTemp" class="btn btn-primary">Get current tempurature </button><br>
+        <button id ="getWeatherAPI" class="btn btn-primary" type="test" name="button">Get weather forcast</button><br>
+        <button type="button" id="back" onClick="showMain()">Back</button>
+      </div>
+    </div>
+
+</body>
+
+
+
+</html>
